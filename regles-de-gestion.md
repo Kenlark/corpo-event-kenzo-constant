@@ -15,17 +15,18 @@
 - RG10 : Un collaborateur peut modifier un commentaire à un événement
 - RG11 : Un collaborateur peut supprimer un commentaire à un événement
 - RG12 : Un collaborateur peut participer à des événements
+- RG13 : Un collaborateur peut être notifié
 
 ## Événements
-- RG13 : Un événement doit posséder un titre
-- RG14 : Un événement doit posséder une date
-- RG15 : Un événement doit posséder une heure
-- RG16 : Un événement doit posséder une description
-- RG17 : Un événement peut être annulé par l'entreprise
+- RG14 : Un événement doit posséder un titre
+- RG15 : Un événement doit posséder une date
+- RG16 : Un événement doit posséder une heure
+- RG17 : Un événement doit posséder une description
+- RG18 : Un événement peut être annulé par l'entreprise
 
 ## Commentaires
-- RG18 : Un commentaire doit contenir du texte
-- RG19 : Un commentaire doit être lié à un seul collaborateur
-- RG20 : Un commentaire doit être lié à un seul événement
-- RG21 : Un commentaire peut être supprimé par son auteur
-- RG22 : Un commentaire peut être modifié par son auteur
+- RG19 : Un commentaire doit contenir du texte
+- RG20 : Un commentaire doit être lié à un seul collaborateur
+- RG21 : Un commentaire doit être lié à un seul événement
+- RG22 : Un commentaire peut être supprimé par son auteur
+- RG23 : Un commentaire peut être modifié par son auteur
