@@ -1,13 +1,13 @@
 # Règles de gestion
 
 ## Entreprise
-- RG1 : L'entreprise peut créer des événements
-- RG2 : L'entreprise peut modifier des événements
-- RG3 : L'entreprise peut supprimer des événements
-- RG4 : L'entreprise peut consulter des événements
-- RG5 : L'entreprise peut participer à des événements
+
+- RG1 : L'entreprise doit avoir un nom
+- RG2 : L'entreprise doit avoir une adresse
+- RG3 : L'entreprise doit avoir un email de contact
 
 ## Collaborateurs
+
 - RG6 : Un collaborateur peut s'inscrire à un événement
 - RG7 : Un collaborateur peut se désinscrire d'un événement
 - RG8 : Un collaborateur peut consulter un événement
@@ -30,3 +30,13 @@
 - RG21 : Un commentaire doit être lié à un seul événement
 - RG22 : Un commentaire peut être supprimé par son auteur
 - RG23 : Un commentaire peut être modifié par son auteur
+
+# Admnistrateurs
+
+- RG24 : Un administrateur peut créer des événements
+- RG25 : Un administrateur peut modifier des événements
+- RG26 : Un administrateur peut supprimer des événements
+- RG27 : Un administrateur peut consulter des événements
+- RG28 : Un administrateur peut participer à des événements
+- RG29 : Un administrateur peut supprimer des commentaires
+
