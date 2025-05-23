@@ -23,6 +23,7 @@ public class CommentaireService implements ManagementCommentaire {
 
     public boolean supprimerCommentaire(Commentaire commentaire) {
         commentaires.remove(commentaire);
+        return false;
     }
 
     public List<Commentaire> getCommentairePourEvenement(Evenement evenement) {
