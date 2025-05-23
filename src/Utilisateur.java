@@ -1,16 +1,26 @@
 import java.util.UUID;
 
 public class Utilisateur {
-    private String nom;
     private UUID id;
-    private String notification;
+    private String nom;
+    private String email;
+    private String motDePasse;
 
-    public String getNotification() {
-        return notification;
+    public Utilisateur() {
+        this.id = UUID.randomUUID();
     }
 
-    public void setNotification(String notification) {
-        this.notification = notification;
+    public Utilisateur(UUID id, String nom) {
+        this.id = id;
+        this.nom = nom;
+    }
+
+    public UUID getId() {
+        return id;
+    }
+
+    public void setId(UUID id) {
+        this.id = id;
     }
 
     public String getNom() {
@@ -21,17 +31,19 @@ public class Utilisateur {
         this.nom = nom;
     }
 
-    public UUID getId(UUID id) {
-        return id;
+    public String getEmail() {
+        return email;
     }
 
-    public void setId(UUID id) {
-        this.id = id;
+    public void setEmail(String email) {
+        this.email = email;
     }
 
-    public Utilisateur(String nom, String id, String notification) {
-        this.nom = nom;
-        this.id = UUID.randomUUID();
-        this.notification = notification;
+    public String getMotDePasse() {
+        return motDePasse;
+    }
+
+    public void setMotDePasse(String motDePasse) {
+        this.motDePasse = motDePasse;
     }
 }
